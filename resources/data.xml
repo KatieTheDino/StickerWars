@@ -82,6 +82,38 @@
             <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="23" fixedrot="false" fric="0.2" gid="3" id="26" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="B_Credits" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="27" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="27" name="B_Credits" readable="false" shared="false">
+        <anim across="2" down="1" durations="300,300" height="128" id="0" loop="true" name="Animation 0" numframes="2" originx="64" originy="64" sync="false" version="2" width="256">
+            <poly data="4,0,0,128,0,128,128,0,128" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="21" fixedrot="false" fric="0.2" gid="3" id="22" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="B_Options" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="23" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="23" name="B_Options" readable="false" shared="false">
+        <anim across="2" down="1" durations="300,300" height="128" id="0" loop="true" name="Animation 0" numframes="2" originx="64" originy="64" sync="false" version="2" width="256">
+            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="22" fixedrot="false" fric="0.2" gid="3" id="24" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="B_Quit" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="25" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="25" name="B_Quit" readable="false" shared="false">
+        <anim across="2" down="1" durations="300,300" height="128" id="0" loop="true" name="Animation 0" numframes="2" originx="64" originy="64" sync="false" version="2" width="256">
+            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="20" fixedrot="false" fric="0.2" gid="3" id="20" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="B_Start" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="21" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="21" name="B_Start" readable="false" shared="false">
+        <anim across="2" down="1" durations="300,300" height="128" id="0" loop="true" name="Animation 0" numframes="2" originx="64" originy="64" sync="false" version="2" width="256">
+            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <background atlasID="0" desc="" durations="100,100" dx="-0.0" dy="-0.0" height="480" id="18" name="Desert Background" numframes="2" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="640" xpf="1.0" ypf="1.0"/>
     <tileset across="1" atlasID="0" desc="" down="2" id="17" name="Desert Ground" oid="-1" readable="false" shared="false" th="32" tw="32">
         <tile collision="-1" data="" durations="100" frames="0" id="0" order="-1"/>
@@ -163,4 +195,5 @@
             <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="480" id="19" name="Title Screen" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="640" xpf="1.0" ypf="1.0"/>
 </pack>
