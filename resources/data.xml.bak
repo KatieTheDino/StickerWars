@@ -142,13 +142,37 @@
             <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="29" fixedrot="false" fric="0.2" gid="3" id="32" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Controls" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="33" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="33" name="Controls" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="170" id="0" loop="true" name="Animation 0" numframes="1" originx="85" originy="85" sync="false" version="2" width="170">
+            <poly data="4,0,0,256,0,256,256,0,256" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <tileset across="1" atlasID="0" desc="" down="2" id="17" name="Desert Ground" oid="-1" readable="false" shared="false" th="32" tw="32">
         <tile collision="-1" data="" durations="100" frames="0" id="0" order="-1"/>
         <tile collision="1" data="" durations="100" frames="1" id="1" order="-1"/>
     </tileset>
     <music atlasID="0" desc="" id="15" loop="true" name="Explode" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
     <music atlasID="0" desc="" id="16" loop="true" name="Fire" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="28" fixedrot="false" fric="0.2" gid="3" id="30" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Leaderboard" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="31" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="31" name="Leaderboard" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="333" id="0" loop="true" name="Animation 0" numframes="1" originx="166" originy="166" sync="false" version="2" width="333">
+            <poly data="4,0,0,333,0,333,333,0,333" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <background atlasID="0" desc="" durations="100,100" dx="-0.0" dy="-0.0" height="480" id="18" name="lined paper" numframes="2" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="640" xpf="1.0" ypf="1.0"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="30" fixedrot="false" fric="0.2" gid="3" id="35" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="MyName" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="36" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="36" name="MyName" readable="false" shared="false">
+        <anim across="3" down="2" durations="100,100,100,100,100,100" height="1000" id="0" loop="true" name="Animation 0" numframes="6" originx="250" originy="250" sync="false" version="2" width="1500">
+            <poly data="4,0,0,500,0,500,500,0,500" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <actor adamp="0.0" ascale="false" atlasID="0" bodytype="2" continuous="false" desc="" eventsnippetid="13" fixedrot="false" fric="0.2" gid="3" id="11" ignoreg="false" inertia="0.01" ldamp="0.0" mass="0.1" name="Particle" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="12" static="false">
         <snippets>
             <s enabled="true" id="8">
