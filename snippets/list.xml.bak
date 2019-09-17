@@ -166,6 +166,8 @@
         <blocks/>
         <events>
             <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
+            <event displayName="Created" enabled="true" id="2" name="init" order="2" repeats="true"/>
+            <event displayName="Created" enabled="true" id="3" name="init" order="3" repeats="true"/>
         </events>
     </snippet>
     <snippet actorid="28" attachedevent="true" class="scripts.ActorEvents_28" classname="scripts.ActorEvents_28" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="26" name="ActorEvents_28" oid="-1" package="scripts." shared="false" type="actor">
@@ -191,6 +193,10 @@
         <events/>
     </snippet>
     <snippet actorid="35" attachedevent="true" class="scripts.ActorEvents_35" classname="scripts.ActorEvents_35" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="30" name="ActorEvents_35" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="37" attachedevent="true" class="scripts.ActorEvents_37" classname="scripts.ActorEvents_37" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="31" name="ActorEvents_37" oid="-1" package="scripts." shared="false" type="actor">
         <blocks/>
         <events/>
     </snippet>

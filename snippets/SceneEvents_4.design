@@ -13,4 +13,30 @@
         </init>
     </group>
     <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <create-actor3 comment="false" x="26" y="40">
+                    <actortype eid="35" id="0"/>
+                    <int id="1" val="100"/>
+                    <int id="2" val="10"/>
+                    <int id="3" val="0"/>
+                </create-actor3>
+            </group>
+        </init>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <create-actor3 comment="false" x="26" y="40">
+                    <actortype eid="37" id="0"/>
+                    <int id="1" val="200"/>
+                    <int id="2" val="-50"/>
+                    <int id="3" val="0"/>
+                </create-actor3>
+            </group>
+        </init>
+    </group>
+    <group eventID="3" id="-1"/>
 </groups>
