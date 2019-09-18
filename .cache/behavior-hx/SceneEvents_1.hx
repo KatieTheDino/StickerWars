@@ -75,6 +75,9 @@ class SceneEvents_1 extends SceneScript
 	override public function init()
 	{
 		
+		/* ======================== When Creating ========================= */
+		createRecycledActor(getActorType(39), 20, 0, Script.FRONT);
+		
 	}
 	
 	override public function forwardMessage(msg:String)

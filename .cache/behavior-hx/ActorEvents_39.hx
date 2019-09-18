@@ -43,7 +43,6 @@ import box2D.common.math.B2Vec2;
 import box2D.dynamics.B2Body;
 import box2D.dynamics.B2Fixture;
 import box2D.dynamics.joints.B2Joint;
-import box2D.collision.shapes.B2Shape;
 
 import com.stencyl.graphics.shaders.BasicShader;
 import com.stencyl.graphics.shaders.GrayscaleShader;
@@ -62,48 +61,25 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class SceneEvents_2 extends SceneScript
+class ActorEvents_39 extends ActorScript
 {
-	public var _StartButtons:Bool;
-	public var _Time:Float;
 	
 	
-	public function new(dummy:Int, dummy2:Engine)
+	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
-		super();
-		nameMap.set("StartButtons", "_StartButtons");
-		_StartButtons = false;
-		nameMap.set("Time", "_Time");
-		_Time = 0.0;
+		super(actor);
 		
 	}
 	
 	override public function init()
 	{
 		
-		/* ======================== When Creating ========================= */
-		_Time = 0;
-		_StartButtons = false;
-		
-		/* ======================== When Updating ========================= */
-		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		/* =========================== On Actor =========================== */
+		addMouseOverActorListener(actor, function(mouseState:Int, list:Array<Dynamic>):Void
 		{
-			if(wrapper.enabled)
+			if(wrapper.enabled && 3 == mouseState)
 			{
-				_Time = (_Time + 1);
-				trace(_Time);
-				if((_Time == 180))
-				{
-					_StartButtons = true;
-				}
-				if((_StartButtons == true))
-				{
-					_StartButtons = false;
-					createRecycledActor(getActorType(20), 75, 260, Script.FRONT);
-					createRecycledActor(getActorType(24), 475, 350, Script.FRONT);
-					createRecycledActor(getActorType(22), 350, 260, Script.FRONT);
-					createRecycledActor(getActorType(26), 200, 350, Script.FRONT);
-				}
+				switchScene(GameModel.get().scenes.get(2).getID(), null, createSlideLeftTransition(2));
 			}
 		});
 		

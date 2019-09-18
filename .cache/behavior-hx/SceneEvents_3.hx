@@ -76,7 +76,7 @@ class SceneEvents_3 extends SceneScript
 	{
 		
 		/* ======================== When Creating ========================= */
-		createRecycledActor(getActorType(28), 20, 20, Script.FRONT);
+		createRecycledActor(getActorType(28), 20, 0, Script.FRONT);
 		
 	}
 	
