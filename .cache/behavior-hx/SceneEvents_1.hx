@@ -77,6 +77,46 @@ class SceneEvents_1 extends SceneScript
 		
 		/* ======================== When Creating ========================= */
 		createRecycledActor(getActorType(39), 20, 0, Script.FRONT);
+		Engine.engine.setGameAttribute("EnemyDeath", 26);
+		
+		/* ======================== When Updating ========================= */
+		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				if(((Engine.engine.getGameAttribute("EnemyDeath") : Float) == 0))
+				{
+					switchScene(GameModel.get().scenes.get(6).getID(), null, createSlideRightTransition(1));
+				}
+			}
+		});
+		
+		/* ======================== Actor of Type ========================= */
+		addWhenTypeGroupKilledListener(getActorType(7), function(eventActor:Actor, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				Engine.engine.setGameAttribute("EnemyDeath", ((Engine.engine.getGameAttribute("EnemyDeath") : Float) - 1));
+			}
+		});
+		
+		/* ======================== Actor of Type ========================= */
+		addWhenTypeGroupKilledListener(getActorType(5), function(eventActor:Actor, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				Engine.engine.setGameAttribute("EnemyDeath", ((Engine.engine.getGameAttribute("EnemyDeath") : Float) - 1));
+			}
+		});
+		
+		/* ======================== Actor of Type ========================= */
+		addWhenTypeGroupKilledListener(getActorType(3), function(eventActor:Actor, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				Engine.engine.setGameAttribute("EnemyDeath", ((Engine.engine.getGameAttribute("EnemyDeath") : Float) - 1));
+			}
+		});
 		
 	}
 	

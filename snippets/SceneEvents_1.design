@@ -9,8 +9,76 @@
                     <int id="2" val="0"/>
                     <int id="3" val="0"/>
                 </create-actor3>
+                <set-game-val-4 comment="false" x="26" y="67">
+                    <int id="0" val="26"/>
+                </set-game-val-4>
             </group>
         </init>
     </group>
     <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <event-type-create-kill comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <set-game-val-4 comment="false" x="26" y="47">
+                    <minus comment="false" id="0" x="0" y="0">
+                        <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </minus>
+                </set-game-val-4>
+            </group>
+            <int id="0" val="1"/>
+            <actortype eid="7" id="1"/>
+        </event-type-create-kill>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <event-type-create-kill comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <set-game-val-4 comment="false" x="26" y="47">
+                    <minus comment="false" id="0" x="0" y="0">
+                        <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </minus>
+                </set-game-val-4>
+            </group>
+            <int id="0" val="1"/>
+            <actortype eid="5" id="1"/>
+        </event-type-create-kill>
+    </group>
+    <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <event-type-create-kill comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <set-game-val-4 comment="false" x="26" y="47">
+                    <minus comment="false" id="0" x="0" y="0">
+                        <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </minus>
+                </set-game-val-4>
+            </group>
+            <int id="0" val="1"/>
+            <actortype eid="3" id="1"/>
+        </event-type-create-kill>
+    </group>
+    <group eventID="4" id="-1"/>
+    <group eventID="5" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="5" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="5" id="-1">
+                        <scene-change-through comment="false" x="37" y="70">
+                            <scene eid="6" id="0"/>
+                            <int id="1" val="4"/>
+                            <int id="2" val="1"/>
+                        </scene-change-through>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="0"/>
+                    </eq>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="5" id="-1"/>
 </groups>

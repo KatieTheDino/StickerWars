@@ -84,6 +84,7 @@ class SceneEvents_2 extends SceneScript
 		/* ======================== When Creating ========================= */
 		_Time = 0;
 		_StartButtons = false;
+		loopSoundOnChannel(getSound(50), 1);
 		
 		/* ======================== When Updating ========================= */
 		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void

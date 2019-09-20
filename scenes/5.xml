@@ -8,7 +8,11 @@
     <joints/>
     <regions/>
     <terrainRegions/>
-    <actors/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="3" id="42" name="GO_menu 1" order="0" sx="1.0" sy="1.0" x="26" y="268" z="0"/>
+        <actor a="0.0" aid="2" c="false" group="3" id="46" name="GO_Quit 2" order="1" sx="1.0" sy="1.0" x="420" y="266" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="3" id="44" name="GO_Replay 3" order="2" sx="1.0" sy="1.0" x="227" y="268" z="0"/>
+    </actors>
     <snippets/>
     <terrain/>
     <atlases members="" retainAtlases="true"/>

@@ -79,7 +79,7 @@ class ActorEvents_44 extends ActorScript
 		{
 			if(wrapper.enabled && 3 == mouseState)
 			{
-				switchScene(GameModel.get().scenes.get(1).getID(), null, createSlideLeftTransition(2));
+				switchScene(GameModel.get().scenes.get(1).getID(), null, createSlideLeftTransition(1));
 			}
 		});
 		
